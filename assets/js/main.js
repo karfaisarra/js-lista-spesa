@@ -24,8 +24,8 @@ const shoppingList = [
   while (i < shoppingList.length) {
     const item = shoppingList[i];
   
-    const liElement = `<li>${item}</li>`
-    shoppingListElement.insertAdjacentHTML('beforeend', liElement)
+    const liElement = `<li>${item}</li>`;
+    shoppingListElement.insertAdjacentHTML('beforeend', liElement);
 
-    i++
+    i++;
   }
